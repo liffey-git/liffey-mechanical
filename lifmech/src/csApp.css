@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.csBody {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../public/comingSoon/ComingSoonBG.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat-y;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.csNav {
+    display: flex;
+    height: 80px;
+    border-bottom: #fff solid 1px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    box-sizing: border-box;
+}
+
+.csLogoWrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.csLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.csBtn {
+    margin-left: 14px;
+}
+
+.csContentWrap {
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.csContent {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 12px;
+    text-align: center;
+    flex: 1;
+}
+
+.csLogoBig {
+    max-width: 700px;
+}
+
+.csBarContainer {
+    display: flex;
+    width: 750px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #727272;
+    font-size: 10px;
+    background: #ffffff1c;
+}
+
+.csProgBar {
+    padding: 0 0 0 5px;
+    display: flex;
+    width: 55%;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.csText {
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.csTextBig {
+    font-weight: 600;
+    font-size: 36px;
+    max-width: 80vw;
+}
+
+.csTextSm {
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 280px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .csNav {
+        padding: 0 10%;
+    }
+    
+    .csBtn {
+        margin-left: 10px;
+    }
+
+    .csLogoBig {
+        max-width: 80vw;
+    }
+    
+    .csTextBig {
+        font-weight: 600;
+        font-size: 26px;
+        max-width: 90vw;
+    }
+
+    .csBarContainer {
+        max-width: 80vw;
+    }
+    
+}
+
+@media only screen and (max-width: 400px) {
+
+    .csLogo {
+        max-width: 200px;
+    }
+
+    .csBtn {
+        max-width: 25px;
+    }
+
+    .csNav {
+        padding: 0 5%;
+    }
+    
+}

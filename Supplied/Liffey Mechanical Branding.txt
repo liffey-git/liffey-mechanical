@@ -1,0 +1,40 @@
+Liffey Mechanical Branding
+
+Colors
+	#1C4581 
+	#1F449C
+	#437DB8
+	#72CEE2
+
+Font
+	Quantify
+
+page size
+	mian nav
+		full width fixed
+			80px 
+
+	banner
+       1920px X 700
+
+	services section
+		(img) 1920 X 800-900px
+	
+	projects section
+		(img) 620px W X 410px H
+	
+	flag project
+		(img) 1920 X 700-900px
+	
+	(possible new)
+		div 1920 X 600px
+	
+	client logo
+		150px X 150px
+	
+	Call to action/sign-off
+		(img) 1920px X 400px
+	
+	Footer bar
+		160px
+		
